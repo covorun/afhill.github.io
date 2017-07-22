@@ -14,3 +14,18 @@
   margin-bottom: 1.25rem;
 }
 .jumbotron { background: transparent; }
+.rs-jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+}
+.rs-wlcm { margin-top: 4rem; }
+.rs-wlcm-msg {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.rs-lead {
+  font-size: 1.75rem;
+  margin-top: 1rem;
+  letter-spacing: .025rem;
+  }
+.rs-explr { color: #888; }

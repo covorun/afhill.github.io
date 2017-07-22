@@ -18,36 +18,54 @@
 
   <body>
     <div class="masthead">
-      <div class="navbar navbar-inverse">
+      <nav class="navbar navbar-toggleable-md navbar-inverse">
         <div class="container d-flex justify-content-between navbar-inner">
-          <a href="#" class="navbar-brand"><img src="assets/images/logo.svg" width="160px"/></a>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Early Access</a>
-            </li>
-          </ul>
-        </div>
-      </div><!-- ./navbar -->
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="#" class="navbar-brand">
+            <img src="assets/images/logo.svg" width="160px"/>
+          </a>
+
+          <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Early Access</a>
+              </li>
+            </ul>
+          </div><!-- ./navbar-collapse -->
+
+        </div><!-- ./container -->
+      </nav><!-- ./navbar -->
 
       <div role="main">
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid rs-jumbotron">
           <div class="container text-center text-white">
-            <h1 class="display-3">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <h1 class="display-3">Find your best race</h1>
+            <p class="lead rs-lead">Discover the race that powers you.</p>
           </div>
         </div>
       </div>
     </div><!-- ./masthead -->
 
     <div class="container">
-      <div class="row">
-        content
+      <div class="row rs-explr">
+        <div class="col-12 text-center">
+          <span class="d-block">Explore runseek</span>
+          <img src="assets/images/arrow.svg"/>
+        </div>
+      </div>
+      <div class="row rs-wlcm">
+        <div class="col-8 offset-2 text-center">
+          <h3>What is runseek?</h3>
+          <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.</p>
+        </div>
       </div>
 
     </div>
