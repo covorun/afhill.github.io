@@ -57,9 +57,9 @@ GLOBAL
   margin-top: 4rem; }
 
 .rs-wlcm-msg {
-  font-size: 1rem;
-  font-weight: 100;
-  line-height: 26px; }
+  font-size: 1.75rem;
+  font-weight: 200;
+  line-height: 1.7; }
 
 .rs-lead {
   font-size: 1.75rem;
@@ -68,3 +68,6 @@ GLOBAL
 
 .rs-explr {
   color: #888; }
+
+.rs-main-content {
+  min-height: 1200px; }
