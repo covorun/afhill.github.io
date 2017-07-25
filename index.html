@@ -51,22 +51,18 @@
             <p class="lead rs-lead">Discover the race that powers you.</p>
 
             <!-- Begin Prefinery Signup Form -->
-            <div id="pfy_embed_signup">
-              <form action="https://i.prefinery.com/projects/ruohjwng/users/post" id="pfy_signup_form" method="post" accept-charset="UTF-8" target="_blank" novalidate>
+            <div id="pfy_embed_signup" class="d-flex justify-content-center">
+              <form class="form-inline" action="https://i.prefinery.com/projects/ruohjwng/users/post" id="pfy_signup_form" method="post" accept-charset="UTF-8" target="_blank" novalidate>
                 <!-- Set the referrer value if you would like us to record the HTTP referrer for this signup. -->
                 <input id="referrer" name="referrer" type="hidden" value="">
 
                 <!-- Set the referral_token value to the unique referral code owned by the referring
-                     tester if you would like to give them referral credit for this signup.
-                     Our JavaScript snippet automatically stores this value in the cookie
-                     named "_pfy_ruohjwng_referral" when a referral link is followed.
-                     Therefore, you may simply read the value from that cookie and use it
-                     as the value for the following referral_token input field. -->
+                     tester if you would like to give them referral credit for this signup.-->
                 <input id="referral_token" name="referral_token" type="hidden" value="">
 
-                <div class="pfy-field-group">
-                  <label for="pfy_user_profile_email">Email Address</label>
-                  <input autocomplete="email" type="email" name="user[profile][email]" id="pfy_user_profile_email">
+                <div class="pfy-field-group form-group">
+                  <label class="sr-only" for="pfy_user_profile_email">Email Address</label>
+                  <input class="form-control" autocomplete="email" type="email" name="user[profile][email]" id="pfy_user_profile_email">
                 </div>
 
                 <!-- Honeypot for spam bots. Don't set this value. Remove at your own risk. -->
@@ -74,8 +70,8 @@
                   <input type="text" name="0665949849bd78a67640f6c6f956195056131503" tabindex="-1" value="">
                 </div>
 
-                <input type="submit" value="Submit">
-              </form>
+                <input class="btn btn-primary" type="submit" value="Get Early Access">
+              </form><!-- ./form -->
             </div><!-- ./Prefinery Signup Form -->
 
 
