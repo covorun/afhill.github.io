@@ -36,10 +36,11 @@ GLOBAL
   padding-bottom: 8rem; }
 
 .rs-wlcm {
-  margin-top: 4rem; }
+  margin-top: 3rem;
+  margin-bottom: 6rem; }
 
 .rs-wlcm-msg {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.7; }
 
@@ -50,3 +51,6 @@ GLOBAL
 
 .rs-explr {
   color: #888; }
+
+.pre-wrap {
+  padding-top: 34px; }

@@ -30,9 +30,12 @@ GLOBAL
   padding-top: 6rem;
   padding-bottom: 8rem;
 }
-.rs-wlcm { margin-top: 4rem; }
+.rs-wlcm {
+	margin-top: 3rem;
+	margin-bottom: 6rem;
+}
 .rs-wlcm-msg {
-	font-size: 1.75rem;
+	font-size: 1.5rem;
 	font-weight: 300;
 	line-height: 1.7;
 }
@@ -43,3 +46,4 @@ GLOBAL
 }
 .rs-explr { color: #888; }
 // .rs-main-content { min-height: 1200px; }
+.pre-wrap { padding-top: 34px; }
