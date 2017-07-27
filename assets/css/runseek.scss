@@ -29,6 +29,10 @@ GLOBAL
 .rs-jumbotron {
   padding-top: 2rem;
   padding-bottom: 6rem;
+	text-align: center;
+}
+@media (min-width: 576px) {
+	.rs-jumbotron { text-align: left; }
 }
 .rs-wlcm {
 	margin-top: 3rem;
@@ -45,5 +49,4 @@ GLOBAL
   letter-spacing: .025rem;
 }
 .rs-explr { color: #888; }
-// .rs-main-content { min-height: 1200px; }
 .pre-wrap { padding-top: 34px; }
